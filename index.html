@@ -50,7 +50,7 @@
 
 <article>
     <header>
-        <h1>Advances in DSR: A Contrastive Learning Approach with XLS-R Representations for Speaker Identity
+        <h1>Advances in DSR: a Contrastive Learning Approach with XlS-R Representations for Speaker Identity
             Preservation</h1>
     </header>
 </article>
@@ -61,7 +61,7 @@
 <br>
 
 <div style="width: 80%">
-    <b>Abstract:</b> Dysarthric speech reconstruction is challenging due to its pathological sound patterns. Preserving
+    <b>Abstract:</b> Dysarthric Speech Reconstruction (DSR) is challenging due to its pathological sound patterns. Preserving
     speaker identity, especially without access to normal speech, is a key challenge. Our proposed approach uses
     contrastive learning to extract speaker embeddings for reconstruction, while employing XLS-R representations instead
     of filter banks. The results show improved speech quality, naturalness, intelligibility, speaker identity
@@ -72,7 +72,7 @@
 
 <div>
     <h2>Functional Diagram of the proposed model</h2>
-    <img src="diagram.PNG" style="width: 30%; margin-left: 50px"/>
+    <img src="diagram.PNG" style="width: 30%;"/>
 </div>
 
 <div style="width: 80%">
@@ -214,484 +214,477 @@
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/F02_B2_rabbit_M4_recons.wav">
+                    <source src="samples/F02_B2_rabbit_M4_org.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>sentence</td>
+            <td>control</td>
             <td>
                 <audio controls>
-                    <source src="samples/F02_B2_sentence_M5_org.wav">
+                    <source src="samples/F02_B2_control_M5_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/F02_B2_sentence_M5_recons.wav">
+                    <source src="samples/F02_B2_control_M5_recons.wav">
                 </audio>
             </td>
         </tr>
     </table>
 
-
     <br>
-    <h3 class="speaker">M07</h3>
+    <h3 class="speaker">Speaker : M07 (male, moderate-severe dysarthria, low intelligibility)</h3>
     <br>
     <table>
         <tr style="border-top: solid; border-bottom: solid;">
-            <th>Word</th>
+            <th>Text</th>
             <th>Original</th>
             <th>Reconstructed</th>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>aversion</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M07_B2_aversion_M5_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M07_B2_aversion_M5_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>Charlie</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M07_B2_Charlie_M3_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M07_B2_Charlie_M3_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>command</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M07_B2_command_M6_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M07_B2_command_M6_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>downward</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M07_B2_downward_M2_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M07_B2_downward_M2_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>foxtrot</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M07_B2_foxtrot_M3_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M07_B2_foxtrot_M3_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>hotel</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M07_B2_hotel_M7_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M07_B2_hotel_M7_recons.wav">
                 </audio>
             </td>
         </tr>
 
+        <tr>
+            <td>number</td>
+            <td>
+                <audio controls>
+                    <source src="samples/M07_B2_number_M4_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/M07_B2_number_M4_recons.wav">
+                </audio>
+            </td>
+        </tr>
 
+        <tr>
+            <td>paragraph</td>
+            <td>
+                <audio controls>
+                    <source src="samples/M07_B2_paragraph_M7_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/M07_B2_paragraph_M7_recons.wav">
+                </audio>
+            </td>
+        </tr>
+
+        <tr>
+            <td>rabbit</td>
+            <td>
+                <audio controls>
+                    <source src="samples/M07_B2_rabbit_M4_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/M07_B2_rabbit_M4_org.wav">
+                </audio>
+            </td>
+        </tr>
+
+        <tr>
+            <td>control</td>
+            <td>
+                <audio controls>
+                    <source src="samples/M07_B2_control_M5_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/M07_B2_control_M5_recons.wav">
+                </audio>
+            </td>
+        </tr>
     </table>
 
     <br>
-    <h3 class="speaker">F04</h3>
+    <h3 class="speaker">Speaker : F04 (female, moderate dysarthria, mid intelligibility)</h3>
     <br>
     <table>
         <tr style="border-top: solid; border-bottom: solid;">
-            <th>Word</th>
+            <th>Text</th>
             <th>Original</th>
             <th>Reconstructed</th>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>aversion</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/F04_B2_aversion_M5_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/F04_B2_aversion_M5_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>Charlie</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/F04_B2_Charlie_M3_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/F04_B2_Charlie_M3_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>command</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/F04_B2_command_M6_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/F04_B2_command_M6_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>downward</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/F04_B2_downward_M2_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/F04_B2_downward_M2_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>foxtrot</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/F04_B2_foxtrot_M3_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/F04_B2_foxtrot_M3_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>hotel</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/F04_B2_hotel_M7_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/F04_B2_hotel_M7_recons.wav">
                 </audio>
             </td>
         </tr>
 
+        <tr>
+            <td>number</td>
+            <td>
+                <audio controls>
+                    <source src="samples/F04_B2_number_M4_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/F04_B2_number_M4_recons.wav">
+                </audio>
+            </td>
+        </tr>
 
+        <tr>
+            <td>paragraph</td>
+            <td>
+                <audio controls>
+                    <source src="samples/F04_B2_paragraph_M7_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/F04_B2_paragraph_M7_recons.wav">
+                </audio>
+            </td>
+        </tr>
+
+        <tr>
+            <td>rabbit</td>
+            <td>
+                <audio controls>
+                    <source src="samples/F04_B2_rabbit_M4_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/F04_B2_rabbit_M4_org.wav">
+                </audio>
+            </td>
+        </tr>
+
+        <tr>
+            <td>control</td>
+            <td>
+                <audio controls>
+                    <source src="samples/F04_B2_control_M5_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/F04_B2_control_M5_recons.wav">
+                </audio>
+            </td>
+        </tr>
     </table>
 
     <br>
-    <h3 class="speaker">M05</h3>
+    <h3 class="speaker">Speaker : M05 (male, moderate dysarthria, mid intelligibility)</h3>
     <br>
     <table>
         <tr style="border-top: solid; border-bottom: solid;">
-            <th>Word</th>
+            <th>Text</th>
             <th>Original</th>
             <th>Reconstructed</th>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>aversion</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M05_B2_aversion_M5_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M05_B2_aversion_M5_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>Charlie</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M05_B2_Charlie_M3_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M05_B2_Charlie_M3_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>command</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M05_B2_command_M6_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M05_B2_command_M6_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>downward</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M05_B2_downward_M2_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
-                </audio>
-            </td>
-        </tr>
-
-        <tr>
-            <td>TMSV</td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
-                </audio>
-            </td>
-            <td>
-                <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M05_B2_downward_M2_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>foxtrot</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M05_B2_foxtrot_M3_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M05_B2_foxtrot_M3_recons.wav">
                 </audio>
             </td>
         </tr>
 
         <tr>
-            <td>TMSV</td>
+            <td>hotel</td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp04/SP04_262.wav">
+                    <source src="samples/M05_B2_hotel_M7_org.wav">
                 </audio>
             </td>
             <td>
                 <audio controls>
-                    <source src="samples/tmsv/sp09/SP09_262.wav">
+                    <source src="samples/M05_B2_hotel_M7_recons.wav">
                 </audio>
             </td>
         </tr>
 
+        <tr>
+            <td>number</td>
+            <td>
+                <audio controls>
+                    <source src="samples/M05_B2_number_M4_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/M05_B2_number_M4_recons.wav">
+                </audio>
+            </td>
+        </tr>
 
+        <tr>
+            <td>paragraph</td>
+            <td>
+                <audio controls>
+                    <source src="samples/M05_B2_paragraph_M7_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/M05_B2_paragraph_M7_recons.wav">
+                </audio>
+            </td>
+        </tr>
+
+        <tr>
+            <td>rabbit</td>
+            <td>
+                <audio controls>
+                    <source src="samples/M05_B2_rabbit_M4_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/M05_B2_rabbit_M4_org.wav">
+                </audio>
+            </td>
+        </tr>
+
+        <tr>
+            <td>control</td>
+            <td>
+                <audio controls>
+                    <source src="samples/M05_B2_control_M5_org.wav">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="samples/M05_B2_control_M5_recons.wav">
+                </audio>
+            </td>
+        </tr>
     </table>
 </div>
 
